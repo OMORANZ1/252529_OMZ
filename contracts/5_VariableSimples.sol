@@ -6,6 +6,10 @@ contract VariableSimples{
 
     uint256 public edad;
 
+    constructor(uint256 _edad){
+        
+    }
+
     function cambiarEdad(uint256 nuevaEdad) public {
         edad = nuevaEdad;
     }
@@ -14,5 +18,7 @@ contract VariableSimples{
         return edad;
 
     }
+
+
 
 }
